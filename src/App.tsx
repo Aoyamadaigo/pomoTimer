@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes } from "react-router-dom";
-import { ColorProvider } from "./colorContext";
+import { ColorProvider } from "./PomTimer/colorContext";
 import { Route } from "react-router-dom";
-import { Color } from "./Color";
+import { Color } from "./PomTimer/Color";
 import { Main } from "./PomTimer/Main";
-import { RecordView } from "./components/page/RecordView";
-import { Message } from "./components/page/Message";
+import { RecordView } from "./PomTimer/components/pages/RecordView";
+import { Message } from "./PomTimer/components/pages/Message";
 
 
 export default function App() {

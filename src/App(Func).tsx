@@ -1,13 +1,7 @@
-import { FuncCalc } from "./FuncCalc/FuncCalc";
-import { Journaling } from "./juournaling/Journaling";
-import { Top } from "./juournaling/Top";
-
-
+import { FuncCalc } from "./FuncCalc/components/pages/FuncCalc"
 
 export default function App() {
-
     return (
         <FuncCalc />
     )
-
 }
